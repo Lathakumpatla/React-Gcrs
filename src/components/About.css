@@ -1,0 +1,133 @@
+
+.about-img {
+  text-align: center;
+}
+
+.about-content {
+  margin-top: -8px;
+ 
+}
+
+.about-content span {
+  font-size: 14px;
+  color: #1dd3f8;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.about-content h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.about-content ul li {
+  font-family: "Dosis", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #212121;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 10px;
+}
+
+.about-content ul li:last-child {
+  margin-bottom: 0;
+}
+
+.about-content ul li i {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  color: #1dd3f8;
+  font-size: 14px;
+  background-color: #d7eef8;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.about-content .default-btn {
+  margin-top: 30px;
+}
+
+textarea.form-control {
+    height: auto;
+    height: 250px;
+  }
+  
+  .ptb-100 {
+    padding-top: 134px;
+    padding-bottom: 100px;
+  }
+  
+  .pt-100 {
+    padding-top: 160px;
+  }
+  
+  .pb-100 {
+    padding-bottom: 100px;
+  }
+  
+  .pt-70 {
+    padding-top: 70px;
+  }
+  
+  .pb-70 {
+    margin-top: 1%;
+  }
+  
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+  
+  .pl-30 {
+    padding-left: 30px;
+  }
+  
+  .pr-30 {
+    padding-right: 30px;
+  }
+  
+  .mt-30 {
+    margin-top: 30px;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  .mt-100 {
+    margin-top: 100px;
+  }
+  
+  .mtb-100 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  
+  .mt-minus-70 {
+    margin-top: -70px;
+  }
+  
+  .mb-minus-70 {
+    margin-bottom: -70px;
+  }
+  
+  .ml-30 {
+    margin-left: 30px;
+  }
+  
+  .mr-30 {
+    margin-right: 30px;
+  }
+  
+  .fun-blue-bg {
+    background-color: #24416b;
+  }
+  

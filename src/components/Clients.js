@@ -1,0 +1,374 @@
+import React from 'react';
+
+const OurClientsComponent = () => {
+  return (
+    <>
+      <section className="" style={{ height: '70px' }}>
+        <div className="container-fluid">
+          <div className="row">
+            {/* Content for the first section can be added here if required */}
+          </div>
+        </div>
+      </section>
+      <div className="container" style={{ padding: '18px' }}>
+        <div className="section-title">
+          <h2 style={{ color: '#BD0324', fontWeight: 'bold', fontFamily: 'Calibri', paddingTop: '7.5%' }}>Our Clients</h2>
+          <p style={{ fontFamily: 'Calibri', fontSize: '20px', color: '#000', lineHeight: '1.5em' }}>
+            We work with corporations, private equity firms, government agencies, non-profit organisations, multilateral and bilateral financing partners, and donor agencies to provide solutions.
+          </p>
+        </div>
+
+        <div className="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <div className="row">
+            <div className="col-md-2 col-sm-6 our_clint_div filter-app">
+              <div>
+                <img src={require("../../src/assets/img/client/wbcsd.png")} alt="WB CSD" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-app">
+              <div>
+                <img src={require("../../src/assets/img/client/world bank.png")} alt="World Bank" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-app">
+              <div>
+                <img src={require("../../src/assets/img/client/UNDP.png")} alt="UNDP" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div">
+              <div>
+                <img src={require("../../src/assets/img/client/Ministery of water resource.png")} alt="Ministery of Water Resource" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-org">
+              <div>
+                <img src={require("../../src/assets/img/client/oxfam.png")} alt="Oxfam" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/Adhithya birla.png")} alt="Adhithya Birla" />
+              </div>
+            </div>
+          </div>
+
+          {/* Add more rows for additional client logos */}
+          <div className="row">
+            <div className="col-md-2 col-sm-6 our_clint_div filter-app">
+              <div>
+                <img src={require("../../src/assets/img/client/giz.png")} alt="GIZ" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div">
+              <div>
+                <img src={require("../../src/assets/img/client/Ministery of climate change.png")} alt="Ministery of Climate Change" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-org">
+              <div>
+                <img src={require("../../src/assets/img/client/save the children.png")} alt="Save the Children" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/CDKN.png")} alt="CDKN" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-app">
+              <div>
+                <img src={require("../../src/assets/img/client/caritas india.png")} alt="Caritas India" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-org">
+              <div>
+                <img src={require("../../src/assets/img/client/Lutheran World relief.png")} alt="Lutheran World Relief" />
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-2 col-sm-6 our_clint_div filter-card">
+              <div>
+                <img src={require("../../src/assets/img/client/Dept of water resource.png")} alt="Department of Water Resource" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/RP.png")} alt="RP" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/IC Net Ltd.png")} alt="IC Net Ltd" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/Bisleri_1.png")} alt="Bisleri" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-card">
+              <div>
+                <img src={require("../../src/assets/img/client/BSI_1.png")} alt="BSI" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-card">
+              <div>
+                <img src={require("../../src/assets/img/client/Central Ground water board.png" )}alt="Central Ground Water Board" />
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/GVMC_2.png")} alt="GVMC" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-org">
+              <div>
+                <img src={require("../../src/assets/img/client/NCDHR_1.png")} alt="NCDHR" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-org">
+              <div>
+                <img src={require("../../src/assets/img/client/Save life foundation_1.png")} alt="Save Life Foundation" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-org">
+              <div>
+                <img src={require("../../src/assets/img/client/Sphere india_1.png")} alt="Sphere India" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-card">
+              <div>
+                <img src={require("../../src/assets/img/client/ZSI_1.png")} alt="ZSI" />
+              </div>
+            </div>
+
+            <div className="col-md-2 col-sm-6 our_clint_div filter-card">
+              <div>
+                <img src={require("../../src/assets/img/client/hmdamdpi.png")} alt="HMDA MDPI" />
+              </div>
+            </div>
+            <div className="row">
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/aga_k.png")} alt="AGA K" />
+              </div>
+            </div>
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/afd1.png")} alt="AFD" />
+              </div>
+            </div>
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/Facor _client.png")} alt="Facor" />
+              </div>
+            </div>
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/Vedanta_client.png")} alt="Vedanta" />
+              </div>
+            </div>
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/adithya birla_Client.png")} alt="Adithya Birla" />
+              </div>
+            </div>
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/shiva.png")} alt="Shiva" />
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/AB_EMMRL.png")} alt="AB EMMRL" />
+              </div>
+            </div>
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/SUZKI_Client.png")} alt="SUZKI" />
+              </div>
+            </div>
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/DLF.png")} alt="DLF" />
+              </div>
+            </div>
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/Tata_Steel.png")} alt="Tata Steel" />
+              </div>
+            </div>
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/omg.png")} alt="OMG" />
+              </div>
+            </div>
+            <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+              <div>
+                <img src={require("../../src/assets/img/client/srrngta_grop.png")} alt="SRRNGTA GROP" />
+              </div>
+            </div>
+            <div className="row">
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/jsw_steel.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/Cococola_1.png")}className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/tata_steel_bsl.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/tetra_tech.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/brand/gail india ltd.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/lokamangal.png")} className="" alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/SECL.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/omecl_1.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/APMDC.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/Indian_Oil.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/Sterling_Biotech.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/Grainfuel_logo.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="row">
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/Hindusthan_copper.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/Suraj Products.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/Chowgule_group.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/Jindal.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/ccl_2.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/wwf.png")} className="" alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/jsw.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/fairtrade.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/Maha_cement.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/JSL.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/NMDC_Limited.png")} className="" alt="" />
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-6 our_clint_div filter-web">
+          <div>
+            <img src={require("../../src/assets/img/client/JBA_1.png")} className="" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+            
+          </div>
+          </div>
+        </div>
+      
+    </>
+  );
+};
+
+export default OurClientsComponent;
