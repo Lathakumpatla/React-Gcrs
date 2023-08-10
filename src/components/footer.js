@@ -1,7 +1,7 @@
 import React from 'react';
-import './footer.css';
-import { Linkedin ,Facebook,Instagram,Twitter,ChevronRight, ChevronDoubleRight, Envelope, EnvelopeFill, PhoneFill, MapFill, ChevronBarUp} from 'react-bootstrap-icons';
-import { Link } from 'react-router-dom';
+import '../static/css/footer.css';
+import { Linkedin ,Facebook,Instagram,Twitter, ChevronDoubleRight,  EnvelopeFill,} from 'react-bootstrap-icons';
+import {  } from 'react-router-dom';
 import { FiChevronUp, FiPhoneCall } from 'react-icons/fi';
 import {BiLocationPlus} from 'react-icons/bi';
 
@@ -16,7 +16,7 @@ const Footer = () => {
                   <div className="col-lg-3 col-md-6">
                       <div className="single-widget">
                            <a href='/Home'>
-                              <img src={require("../../src/assets/img/logo_white.svg").default} alt="Image" style={{ height: '70px' }} />
+                              <img src={require("../../src/assets/img/logo_white.svg").default} alt="" style={{ height: '70px' }} />
                           </a>
                           <p style={{ paddingTop: '20px' }}>
                               GCRS is a solution provider, consultancy, and advisory services firm that focuses on
@@ -24,24 +24,24 @@ const Footer = () => {
                           </p>
                           <ul className="social-icon">
                               <li >
-                                  <a href="https://www.facebook.com/Geo-Climate-Risk-Solutions-106867784806906" target="_blank" >
-                                  <i class="bx bxl-facebook" >
+                                  <a href="https://www.facebook.com/Geo-Climate-Risk-Solutions-106867784806906" target="_blank" rel="noopener noreferrer">
+                                     <i class="bx bxl-facebook" >
                                     <Facebook size={15}/>
                                   </i>
                                   </a>
                               </li>
                               <li>
-                                  <a href="https://www.instagram.com/geoclimaterisksolutions3/" target="_blank">
+                                  <a href="https://www.instagram.com/geoclimaterisksolutions3/" target="_blank" rel="noopener noreferrer">
                                       <Instagram/>
                                   </a>
                               </li>
                               <li>
-                                  <a href="https://www.linkedin.com/company/gcrs/" target="_blank">
+                                  <a href="https://www.linkedin.com/company/gcrs/" target="_blank" rel="noopener noreferrer">
                                       <Linkedin style={{ fontSize: '20px', border: '1px solid', backgroundColor: '#fffff' }} />
                                   </a>
                               </li>
                               <li>
-                                  <a href="https://twitter.com/geo_pvt" target="_blank">
+                                  <a href="https://twitter.com/geo_pvt" target="_blank" rel="noopener noreferrer">
                                       <Twitter/>
                                   </a>
                               </li>

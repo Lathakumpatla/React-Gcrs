@@ -41,7 +41,7 @@ const ClimateChangeAndCarbonOffsetting = () => {
             </div>
             <div className="col-lg-8 col-md-12">
               <div className="product-details-image">
-                <img src={require("../../src/assets/img/solutions/climate_change_3.png")} style={{ height: "400px" }} alt="Image" />
+                <img src={require("../../src/assets/img/solutions/climate_change_3.png")} style={{ height: "400px" }} alt="" />
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ const ClimateChangeAndCarbonOffsetting = () => {
               <div className="single-news">
                 <div className="blog-img">
                   <Link to="/EnvironmentalSolutions">
-                    <img src={require("../../src/assets/img/solutions/enviromental_solutions.png")} className="other_services_solutions_images" alt="Image" />
+                    <img src={require("../../src/assets/img/solutions/enviromental_solutions.png")} className="other_services_solutions_images" alt="" />
                   </Link>
                 </div>
                 <div className="news-content-wrap other_services_solutions_h3">
@@ -74,7 +74,7 @@ const ClimateChangeAndCarbonOffsetting = () => {
               <div className="single-news">
                 <div className="blog-img">
                   <Link to="/MultiInfrastructureRiskAnalysis">
-                    <img src={require("../../src/assets/img/solutions/multi_infras.png")} className="other_services_solutions_images" alt="Image" />
+                    <img src={require("../../src/assets/img/solutions/multi_infras.png")} className="other_services_solutions_images" alt="" />
                   </Link>
                 </div>
                 <div className="news-content-wrap other_services_solutions_h3">
@@ -88,7 +88,7 @@ const ClimateChangeAndCarbonOffsetting = () => {
               <div className="single-news">
                 <div className="blog-img">
                   <Link to="/WaterResources">
-                    <img src={require("../../src/assets/img/solutions/water_resource.png")} className="other_services_solutions_images" alt="Image" />
+                    <img src={require("../../src/assets/img/solutions/water_resource.png")} className="other_services_solutions_images" alt="" />
                   </Link>
                 </div>
                 <div className="news-content-wrap other_services_solutions_h3">
@@ -102,7 +102,7 @@ const ClimateChangeAndCarbonOffsetting = () => {
               <div className="single-news">
                 <div className="blog-img">
                   <Link to="/GeospatialTechnologies">
-                    <img src={require("../../src/assets/img/solutions/geospatial.png")} className="other_services_solutions_images" alt="Image" />
+                    <img src={require("../../src/assets/img/solutions/geospatial.png")} className="other_services_solutions_images" alt="" />
                   </Link>
                 </div>
                 <div className="news-content-wrap other_services_solutions_h3">
@@ -116,7 +116,7 @@ const ClimateChangeAndCarbonOffsetting = () => {
               <div className="single-news">
                 <div className="blog-img">
                   <Link to="/AgricultureAndNaturalResources">
-                    <img src={require("../../src/assets/img/solutions/agri_icon.png")} className="other_services_solutions_images" alt="Image" />
+                    <img src={require("../../src/assets/img/solutions/agri_icon.png")} className="other_services_solutions_images" alt="" />
                   </Link>
                 </div>
                 <div className="news-content-wrap other_services_solutions_h3">

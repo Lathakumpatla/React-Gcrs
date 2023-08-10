@@ -1,6 +1,6 @@
 import React from 'react';
-import './ContactUs.css';
-import { Envelope,PhoneFlip, PhoneLandscape, PhoneVibrate,} from 'react-bootstrap-icons';
+import '../static/css/ContactUs.css';
+import { Envelope,} from 'react-bootstrap-icons';
 import { FiPhoneCall } from 'react-icons/fi';
 import {BiLocationPlus} from 'react-icons/bi';
 

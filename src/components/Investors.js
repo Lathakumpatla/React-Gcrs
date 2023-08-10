@@ -1,4 +1,5 @@
 import React from 'react';
+import '../static/css/Investors.css';
 
 const InvestorsAndPartners = () => {
   return (

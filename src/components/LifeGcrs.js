@@ -19,13 +19,13 @@ const LifeAtGCRS = () => {
               </div>
           </div>
           <div className="offer-shape">
-              <img src={require("../../src/assets/img/shape/offer-shape/1.png")} />
-              <img src={require("../../src/assets/img/shape/offer-shape/2.png")} />
-              <img src={require("../../src/assets/img/shape/offer-shape/3.png")} />
-              <img src={require("../../src/assets/img/shape/offer-shape/4.png")} />
-              <img src={require("../../src/assets/img/shape/offer-shape/5.png")} />
-              <img src={require("../../src/assets/img/shape/offer-shape/5.png")} />
-              <img src={require("../../src/assets/img/shape/offer-shape/6.png")} />
+              <img src={require("../../src/assets/img/shape/offer-shape/1.png")} alt=""/>
+              <img src={require("../../src/assets/img/shape/offer-shape/2.png")} alt=""/>
+              <img src={require("../../src/assets/img/shape/offer-shape/3.png")} alt=""/>
+              <img src={require("../../src/assets/img/shape/offer-shape/4.png")} alt=""/>
+              <img src={require("../../src/assets/img/shape/offer-shape/5.png")} alt=""/>
+              <img src={require("../../src/assets/img/shape/offer-shape/5.png")} alt=""/>
+              <img src={require("../../src/assets/img/shape/offer-shape/6.png")} alt=""/>
           </div>
       </section><section className="industries-serve-area pt-100">
               <div className="container">

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Career.css';
+import '../static/css/Career.css';
 
 // Career Section Component
 const CareerSection = () => {
@@ -16,13 +16,13 @@ const CareerSection = () => {
         </div>
       </div>
       <div className="offer-shape">
-        <img src={require("../../src/assets/img/shape/offer-shape/1.png")} alt="Image" />
-        <img src={require("../../src/assets/img/shape/offer-shape/2.png")} alt="Image" />
-        <img src={require("../../src/assets/img/shape/offer-shape/3.png")} alt="Image" />
-        <img src={require("../../src/assets/img/shape/offer-shape/4.png")} alt="Image" />
-        <img src={require("../../src/assets/img/shape/offer-shape/5.png")} alt="Image" />
-        <img src={require("../../src/assets/img/shape/offer-shape/5.png")} alt="Image" />
-        <img src={require("../../src/assets/img/shape/offer-shape/6.png")} alt="Image" />
+        <img src={require("../../src/assets/img/shape/offer-shape/1.png")} alt="" />
+        <img src={require("../../src/assets/img/shape/offer-shape/2.png")} alt="" />
+        <img src={require("../../src/assets/img/shape/offer-shape/3.png")} alt="" />
+        <img src={require("../../src/assets/img/shape/offer-shape/4.png")} alt="" />
+        <img src={require("../../src/assets/img/shape/offer-shape/5.png")} alt="" />
+        <img src={require("../../src/assets/img/shape/offer-shape/5.png")} alt="" />
+        <img src={require("../../src/assets/img/shape/offer-shape/6.png")} alt="" />
       </div>
 
     </section><div className="container">

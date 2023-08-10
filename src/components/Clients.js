@@ -38,7 +38,7 @@ const OurClientsComponent = () => {
                 <img src={require("../../src/assets/img/client/UNDP.png")} alt="UNDP" style={{margin:30}}/>
               </div>
             </div>
-
+            
             <div className="col-md-2 col-sm-6 our_clint_div">
               <div>
                 <img src={require("../../src/assets/img/client/Ministery of water resource.png")} alt="Ministery of Water Resource" />

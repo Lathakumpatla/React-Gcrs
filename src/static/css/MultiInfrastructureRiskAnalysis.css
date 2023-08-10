@@ -1,0 +1,12 @@
+.single-news:hover {
+    box-shadow: 1px 1px 11px rgba(33,33,33,.2); 
+  }
+  
+  .single-news {
+    box-shadow: 1px 1px 11px rgba(33,33,33,.2); 
+  }
+  
+  .single-news .news-content-wrap
+  {
+  background-color: #b8eee9;
+  }

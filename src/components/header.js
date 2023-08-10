@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import './header.css';
-import { FiMenu } from 'react-icons/fi';
+import '../static/css/header.css';
+
 
 export default function Header() {
-  const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
+ 
   const [isServicesDropdownVisible, setIsServicesDropdownVisible] = useState(false);
   const [isAboutDropdownVisible, setIsAboutDropdownVisible] = useState(false);
+  const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
 
   const handleMobileMenuToggle = () => {
     setIsMobileMenuVisible(!isMobileMenuVisible);
   };
+
+  
 
   const handleServicesDropdownToggle = () => {
     setIsServicesDropdownVisible(!isServicesDropdownVisible);
@@ -27,16 +30,16 @@ export default function Header() {
         <div className="navbar-area">
           <div className="logo-container">
             <Link to="/" className="logo">
-              <img
+          
+            <img
                 src={require("../../src/assets/img/logo_website_2.svg").default}
                 alt="Logo"
-                width="80%"
-              />
+                width="80%"/>
             </Link>
           </div>
           {/* Mobile menu icon */}
           <div className="mobile-menu-icon" onClick={handleMobileMenuToggle}>
-            <FiMenu />
+          
           </div>
           <div className={`main-nav ${isMobileMenuVisible ? 'mobile-menu-visible' : ''}`}>
             <nav className="navbar navbar-expand-md navbar-light">

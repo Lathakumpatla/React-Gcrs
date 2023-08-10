@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './EnvironmentalSolutions.css';
+import '../static/css/EnvironmentalSolutions.css';
 
 const EnvironmentalSolutions = () => {
   return (

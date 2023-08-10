@@ -1,0 +1,31 @@
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .section-title h2 {
+      font-size: 24px;
+    }
+  
+    .section-title p {
+      font-size: 18px;
+    }
+  }
+  
+  /* Additional media queries as needed */
+  @media screen and (max-width: 480px) {
+    .container {
+      padding: 5px;
+    }
+  
+    .section-title h2 {
+      font-size: 20px;
+    }
+  
+    .section-title p {
+      font-size: 16px;
+    }
+  }
+
+  

@@ -1,6 +1,6 @@
 import React from 'react';
-import './Accreditation.css';
-import { Envelope,HandIndexFill} from 'react-bootstrap-icons';
+import '../static/css/Accreditation.css';
+
 import  {BiSolidHandRight} from 'react-icons/bi';
 
 
@@ -32,7 +32,7 @@ const AccreditationComponent = () => {
                   <div className="featured-box-desc">
                     <p style={{ textAlign: 'center', fontWeight: 'bold' }}>
                       <BiSolidHandRight size={24} style={{marginRight:6}}/>
-                      <a href={require("../../src/assets/img/brand/Geoclimate Risk Solutions.pdf")} id="accred_link" target="_blank">
+                      <a href={require("../../src/assets/img/brand/Geoclimate Risk Solutions.pdf")} id="accred_link" target="_blank" rel="noopener noreferrer">
                         Certificate of Accreditation by Central Ground Water Authority
                       </a>
                     </p>
@@ -43,7 +43,7 @@ const AccreditationComponent = () => {
             <div className="row justify-content-center">
               <div className="col-md-5 col-sm-9 filter-web investorGailImg">
                 <div className="d-flex flex-row align-items-center justify-content-center">
-                  <img
+                <img
                     src={require("../../src/assets/img/brand/accreditation.png")}
                     style={{ width: '600px', height: 'auto', marginBottom: '20px' }}
                     alt="" />

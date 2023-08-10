@@ -1,5 +1,5 @@
 import React from 'react';
-import './Team.css';
+import '../static/css/Team.css';
 import {Linkedin} from 'react-bootstrap-icons';
 
 
@@ -40,7 +40,7 @@ const TeamSection = () => {
                                   </li>
                               </ul>
                               <div className="team-single-img">
-                                  <img src={require("../../src/assets/img/team/prasad_babu.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+                                  <img src={require("../../src/assets/img/team/prasad_babu.png")} style={{ height: '140px', width: '140px' }} alt="" />
                               </div>
                               <div className="team-content">
                                   <h3>G Prasad Babu</h3>
@@ -60,7 +60,7 @@ const TeamSection = () => {
                                   </li>
                               </ul>
                               <div className="team-single-img">
-                                  <img src={require("../../src/assets/img/team/Mungreila.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+                                  <img src={require("../../src/assets/img/team/Mungreila.png")} style={{ height: '140px', width: '140px' }} alt="" />
                               </div>
                               <div className="team-content">
                                   <h3>Mungreila PA</h3>
@@ -80,7 +80,7 @@ const TeamSection = () => {
                                   </li>
                               </ul>
                               <div className="team-single-img">
-                                  <img src={require("../../src/assets/img/team/Sananth.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+                                  <img src={require("../../src/assets/img/team/Sananth.png")} style={{ height: '140px', width: '140px' }} alt="" />
                               </div>
                               <div className="team-content">
                                   <h3>Daniel Sananth. P</h3>
@@ -104,7 +104,7 @@ const TeamSection = () => {
                               </li>
                           </ul>
                           <div className="team-single-img">
-                              <img src={require('../../src/assets/img/team/rajiv_pic1.jpg')} style={{ height: '140px', width: '140px' }} alt="Image" />
+                              <img src={require('../../src/assets/img/team/rajiv_pic1.jpg')} style={{ height: '140px', width: '140px' }} alt="" />
                           </div>
                           <div className="team-content">
                               <h3>Dr. Rajiv Sinha</h3>
@@ -122,7 +122,7 @@ const TeamSection = () => {
                               </li>
                           </ul>
                           <div className="team-single-img">
-                              <img src={require('../../src/assets/img/team/sreeja.png')} style={{ height: '140px', width: '140px' }} alt="Image" />
+                              <img src={require('../../src/assets/img/team/sreeja.png')} style={{ height: '140px', width: '140px' }} alt="" />
                           </div>
                           <div className="team-content">
                               <h3>Dr. Sreeja S. Nair</h3>
@@ -140,7 +140,7 @@ const TeamSection = () => {
                               </li>
                           </ul>
                           <div className="team-single-img">
-                              <img src={require('../../src/assets/img/team/Rikhi.png')} style={{ height: '140px', width: '140px' }} alt="Image" />
+                              <img src={require('../../src/assets/img/team/Rikhi.png')} style={{ height: '140px', width: '140px' }} alt="" />
                           </div>
                           <div className="team-content">
                               <h3>Rikhi Kaushal</h3>
@@ -158,7 +158,7 @@ const TeamSection = () => {
                               </li>
                           </ul>
                           <div className="team-single-img">
-                              <img src={require('../../src/assets/img/team/Dr CBS DUTT.png')} style={{ height: '140px', width: '140px' }} alt="Image" />
+                              <img src={require('../../src/assets/img/team/Dr CBS DUTT.png')} style={{ height: '140px', width: '140px' }} alt="" />
                           </div>
                           <div className="team-content">
                               <h3>Dr. CBS Dutt</h3>
@@ -176,7 +176,7 @@ const TeamSection = () => {
                               </li>
                           </ul>
                           <div className="team-single-img">
-                              <img src={require('../../src/assets/img/team/Equeenuddin.png')} style={{ height: '140px', width: '140px' }} alt="Image" />
+                              <img src={require('../../src/assets/img/team/Equeenuddin.png')} style={{ height: '140px', width: '140px' }} alt="" />
                           </div>
                           <div className="team-content">
                               <h3>Md. Equeenuddin (Ph.D)</h3>
@@ -194,7 +194,7 @@ const TeamSection = () => {
                               </li>
                           </ul>
                           <div className="team-single-img">
-                              <img src={require('../../src/assets/img/team/gcrs_mentor.png')} style={{ height: '140px', width: '140px' }} alt="Image" />
+                              <img src={require('../../src/assets/img/team/gcrs_mentor.png')} style={{ height: '140px', width: '140px' }} alt="" />
                           </div>
                           <div className="team-content">
                               <h3>Dr. Bijay Kumar Sahu</h3>
@@ -213,11 +213,11 @@ const TeamSection = () => {
                       <div className="single-team">
                           <ul>
                               <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-                                  <a href="https://www.linkedin.com/in/vijaysingh4/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} /></a>
+                                  <a href="https://www.linkedin.com/in/vijaysingh4/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} /></a>
                               </li>
                           </ul>
                           <div className="team-single-img">
-                              <img src={require('../../src/assets/img/team/P.singh.png')} style={{ height: '140px', width: '140px' }} alt="Image" />
+                              <img src={require('../../src/assets/img/team/P.singh.png')} style={{ height: '140px', width: '140px' }} alt="" />
                           </div>
                           <div className="team-content">
                               <h3>Vijay P. Singh (Ph.D)</h3>
@@ -230,12 +230,12 @@ const TeamSection = () => {
   <div className="single-team">
     <ul>
       <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-        <a href="https://www.linkedin.com/in/manoj-gummadi-3870b148/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+        <a href="https://www.linkedin.com/in/manoj-gummadi-3870b148/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
         </a>
       </li>
     </ul>
     <div className="team-single-img">
-      <img src={require("../../src/assets/img/team/manoj.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+      <img src={require("../../src/assets/img/team/manoj.png")} style={{ height: '140px', width: '140px' }} alt="" />
     </div>
 
     <div className="team-content">
@@ -248,12 +248,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/jasmine-g-4635b3169/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/jasmine-g-4635b3169/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Jasmine_d.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Jasmine_d.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -268,12 +268,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/rahul-kalki-yekkala-25a8a2155/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/rahul-kalki-yekkala-25a8a2155/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/rahul1.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/rahul1.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -286,12 +286,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/ss-muskan?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDIHRrJ17RTi72vmp5IapKg%3D%3D" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/ss-muskan?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDIHRrJ17RTi72vmp5IapKg%3D%3D" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Muskhan_new.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Muskhan_new.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -304,12 +304,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/raghupatruni-gnaneswara-rao-4bb873165/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/raghupatruni-gnaneswara-rao-4bb873165/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/gnanesh.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/gnanesh.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -322,12 +322,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/priyanka-khanna-b6684932/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/priyanka-khanna-b6684932/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Priyanka1.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Priyanka1.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -340,12 +340,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/sjsurya" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/sjsurya" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/surya_intern_250.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/surya_intern_250.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -358,12 +358,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/vagbhat-vamsi-krishna/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/vagbhat-vamsi-krishna/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/IMG-20211010-WA0030.jpg")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/IMG-20211010-WA0030.jpg")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -376,12 +376,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/dr-fakir-bastia-884b01155/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/dr-fakir-bastia-884b01155/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Fakira.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Fakira.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -394,12 +394,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/jyoti-chaudhary-027a9165/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/jyoti-chaudhary-027a9165/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/JyotiChaudhary1.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/JyotiChaudhary1.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -412,12 +412,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/suneel-kumar-joshi-51631916/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/suneel-kumar-joshi-51631916/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Sunil Kumar.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Sunil Kumar.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -430,12 +430,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/saloni-ranka-335b42186" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/saloni-ranka-335b42186" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Saloni.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Saloni.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -448,12 +448,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/dgumber/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/dgumber/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/deepthi.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/deepthi.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -466,12 +466,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/tanushree-verma-328388122/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/tanushree-verma-328388122/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Verma.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Verma.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -489,7 +489,7 @@ const TeamSection = () => {
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Madhuri.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Madhuri.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -502,12 +502,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="http://www.linkedin.com/in/bhavanapedada" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="http://www.linkedin.com/in/bhavanapedada" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Bhavana.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Bhavana.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -525,7 +525,7 @@ const TeamSection = () => {
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/sivasnehajyothi.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/sivasnehajyothi.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -539,12 +539,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/pvsoundarya-sravani-510117166" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/pvsoundarya-sravani-510117166" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Soundarya_1.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Soundarya_1.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -558,12 +558,12 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/yehezekiel-karri-4aa35612b/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/yehezekiel-karri-4aa35612b/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Yehezekiel.jpg")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Yehezekiel.jpg")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -585,7 +585,7 @@ const TeamSection = () => {
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/PManojKumar.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/PManojKumar.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -601,12 +601,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/karthik-eswar-8a942a230" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/karthik-eswar-8a942a230" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/MKarthikEswarBabu.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/MKarthikEswarBabu.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -622,12 +622,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/niten-giri-b531b648/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/niten-giri-b531b648/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/niten_giri.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/niten_giri.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -643,12 +643,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/balasubramaniyan-k-03012113b/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/balasubramaniyan-k-03012113b/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/balasubramanyan.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/balasubramanyan.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -669,7 +669,7 @@ const TeamSection = () => {
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Yashika Singh.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Yashika Singh.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -685,12 +685,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/sahal-k" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/sahal-k" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Sahal_K.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Sahal_K.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -706,12 +706,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/nandupillidanesh" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/nandupillidanesh" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Danesh.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+      <img src={require("../../src/assets/img/team/Danesh.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -729,12 +729,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/adithya-ajikumar-aba590218" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/adithya-ajikumar-aba590218" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/adithya_aji.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/adithya_aji.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -752,12 +752,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/sayam-vaishnavi-13528b188/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/sayam-vaishnavi-13528b188/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Vaishnavi.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Vaishnavi.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -775,12 +775,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/satya-deep-79282a125/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/satya-deep-79282a125/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Satyadeep.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Satyadeep.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -797,12 +797,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/blessy-thanmayi-77501a252/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/blessy-thanmayi-77501a252/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/blessy.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/blessy.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -819,12 +819,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/venkata-harshini-rayala-5065aa217/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/venkata-harshini-rayala-5065aa217/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Harshini Rayala_1.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Harshini Rayala_1.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -841,12 +841,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/nakka-sai-lakshmi-b66646253" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/nakka-sai-lakshmi-b66646253" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Nakka Sai Lakshmi.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Nakka Sai Lakshmi.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -863,12 +863,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/sreenivas-bandapu-339a49242/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/sreenivas-bandapu-339a49242/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Srinivas.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Srinivas.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -885,12 +885,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/karthick-g-3855011b4/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/karthick-g-3855011b4/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Karthick.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Karthick.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -907,12 +907,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/preslych" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/preslych" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/presly.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/presly.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -929,12 +929,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Mani.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Mani.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -951,12 +951,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/akansha-vaishnavi-6426ba178" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/akansha-vaishnavi-6426ba178" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/Vaishnavi akansha.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/Vaishnavi akansha.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -973,12 +973,12 @@ const TeamSection = () => {
 
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/ahammed-sahil-36126a229/" target="_blank"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
+          <a href="https://www.linkedin.com/in/ahammed-sahil-36126a229/" target="_blank" rel="noopener noreferrer"><Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
       </ul>
       <div className="team-single-img">
-        <img src={require("../../src/assets/img/team/AHAMMED SAHIL SHAJAHAN.png")} style={{ height: '140px', width: '140px' }} alt="Image" />
+        <img src={require("../../src/assets/img/team/AHAMMED SAHIL SHAJAHAN.png")} style={{ height: '140px', width: '140px' }} alt="" />
 
       </div>
       <div className="team-content">
@@ -993,7 +993,7 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/ajitha-r-49336524a" target="_blank">
+          <a href="https://www.linkedin.com/in/ajitha-r-49336524a" target="_blank" rel="noopener noreferrer">
             <Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>
@@ -1010,7 +1010,7 @@ const TeamSection = () => {
     <div className="single-team">
       <ul>
         <li style={{ marginLeft: '-90%', listStyleType: 'none' }}>
-          <a href="https://www.linkedin.com/in/venkatesh-dasari/" target="_blank">
+          <a href="https://www.linkedin.com/in/venkatesh-dasari/" target="_blank" rel="noopener noreferrer">
             <Linkedin style={{ fontSize: '25px', border: '1px solid', backgroundColor: '#fffff' }} />
           </a>
         </li>

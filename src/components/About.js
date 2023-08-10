@@ -1,12 +1,12 @@
 import React from 'react';
-import './header.css';
-import './About.css';
+import '../static/css/header.css';
+import '../static/css/About.css';
 import  {TiInputChecked} from 'react-icons/ti';
 
 
 
 
-export default function Header() {
+function Header() {
   return (
     <>
       
@@ -16,7 +16,7 @@ export default function Header() {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-img">
-              <img src={require("../../src/assets/img/about_us.png")}  alt="Image" />
+              <img src={require("../../src/assets/img/about_us.png")}  alt="" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -64,3 +64,4 @@ export default function Header() {
     </>
   );
 }
+export default  Header;

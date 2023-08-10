@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import $ from 'jquery'; // Import jQuery
-import './AcceptCookies.css';
+import '../static/css/AcceptCookies.css';
 
 const AcceptCookies = () => {
   useEffect(() => {
@@ -16,7 +16,7 @@ const AcceptCookies = () => {
           <div className="modal-body">
             <h3>Please Accept Cookies</h3>
             <h5>
-              We use ‘cookies’ and related technologies to help identify you and your devices, to operate our site, enhance your experience and conduct advertising. You can read more about these uses in our <a href="#" style={{ color: 'blue' }}>Privacy Policy</a>.
+              We use ‘cookies’ and related technologies to help identify you and your devices, to operate our site, enhance your experience and conduct advertising. You can read more about these uses in our <a href="" style={{ color: 'blue' }}>Privacy Policy</a>.
             </h5>
             <div className="modal-footer">
               <button type="button" className="btn btn-default" data-dismiss="modal">Accept Cookies</button>
