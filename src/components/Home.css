@@ -1,16 +1,15 @@
-/* Slideshow container */
+
 .slideshow-container {
-  /* max-width: 1600px; */
+
   position: relative;
-  /* margin: auto; */
+ 
 }
 .slide_img{
     height:430px;
     width: 100%;
-     /* transform: translateY(15%); */
-      /* transform: translate(10%, 0%); */
+    
 }
-/* Caption text */
+
 .text {
   color: #f2f2f2;
   font-size: 45px;
@@ -21,7 +20,7 @@
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
+
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -30,7 +29,7 @@
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+
 .dot {
   height: 15px;
   width: 15px;
@@ -46,7 +45,7 @@
   background-color: #717171;
 }
 
-/* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 2s;
@@ -64,12 +63,12 @@
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
+
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
 
-/*Section Title Area Style*/
+
 
 .section-title {
   max-width: 625px;
@@ -99,9 +98,7 @@
   margin-bottom: 0;
 }
 
-/*
-Offer Area Style
-======================================================*/
+
 .offer-area {
   background-color: #f2f2f2;
   position: relative;
@@ -167,7 +164,7 @@ Offer Area Style
   padding-left: 80px;
   background-color: #ffffff;
   border-radius: 30px;
-  /* border: 2px dotted #1dd3f8; */
+ 
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin-bottom: 30px;
@@ -508,9 +505,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   color: #ffffff;
 }
 
-/*
-Footer Bottom Area Style
-======================================================*/
+
 .footer-bottom-area {
   background-color: #0d1240;
   padding: 15px 0;
@@ -609,22 +604,16 @@ Footer Bottom Area Style
           animation: focus-one 1s linear 1s infinite;
 }
 
-.single-widget {
-  /* margin-bottom: 30px; */
-}
 
-.single-widget img {
-  /* margin-bottom: 30px; */
-}
 
 .single-widget p {
   color: #d9d6d6;
-  /* margin-bottom: 30px; */
+ 
 }
 
 .single-widget h3 {
   color: #ffffff;
-  /* margin-bottom: 25px; */
+  
   font-size: 25px;
   position: relative;
   border-bottom: 2px solid #060c4a;
@@ -707,7 +696,7 @@ Footer Bottom Area Style
 }
 
 Footer Bottom Area Style
-======================================================*/
+
 .footer-bottom-area {
   background-color: #0d1240;
   padding: 15px 0;

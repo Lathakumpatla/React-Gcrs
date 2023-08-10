@@ -193,25 +193,25 @@ const Home = () => {
                   <div className="row">
                     <div className="col-lg-12 col-md-12">
                       <div className="single-industries-about_us right-item" style={{ display: 'flex' }}>
-                        <img src={require("../../src/assets/img/icons/svg/water.svg").default} className="industry_serve_img" alt="Water Resources" style={{ margin: 10, width: 69 }} />
+                        <img src={require("../../src/assets/img/icons/svg/water.svg").default} className="industry_serve_img" alt="Water Resources" style={{ margin: 10, width: 60,height:60 }} />
                         <h3 className="industry_serve_h3_aboutus">Water Resources</h3>
                       </div>
                     </div>
                     <div className="col-lg-12 col-md-12">
                       <div className="single-industries-about_us right-item" style={{ display: 'flex' }}>
-                        <img src={require("../../src/assets/img/icons/svg/forestry.svg").default} className="industry_serve_img" alt="Forestry" style={{ margin: 10, width: 69 }} />
+                        <img src={require("../../src/assets/img/icons/svg/forestry.svg").default} className="industry_serve_img" alt="Forestry" style={{ margin: 10, width: 60,height:60 }} />
                         <h3 className="industry_serve_h3_aboutus">Forestry</h3>
                       </div>
                     </div>
                     <div className="col-lg-12 col-md-12">
                       <div className="single-industries-about_us right-item" style={{ display: 'flex' }}>
-                        <img src={require("../../src/assets/img/icons/svg/wildlife_1.svg").default} className="industry_serve_img" alt="Wildlife" style={{ margin: 10, width: 69 }} />
+                        <img src={require("../../src/assets/img/icons/svg/wildlife_1.svg").default} className="industry_serve_img" alt="Wildlife" style={{ margin: 10, width: 60,height:60 }} />
                         <h3 className="industry_serve_h3_aboutus">Wildlife</h3>
                       </div>
                     </div>
                     <div className="col-lg-12 col-md-12">
                       <div className="single-industries-about_us right-item" style={{ display: 'flex' }}>
-                        <img src={require("../../src/assets/img/icons/svg/agriculture.svg").default} className="industry_serve_img" alt="Agriculture" style={{ margin: 10, width: 69 }} />
+                        <img src={require("../../src/assets/img/icons/svg/agriculture.svg").default} className="industry_serve_img" alt="Agriculture" style={{ margin: 10, width: 60,height:60 }} />
                         <h3 className="industry_serve_h3_aboutus">Agriculture</h3>
                       </div>
                     </div>
@@ -222,25 +222,25 @@ const Home = () => {
                   <div className="row">
                     <div className="col-lg-12 col-md-12">
                       <div className="single-industries-about_us right-item" style={{ display: 'flex' }}>
-                        <img src={require("../../src/assets/img/icons/svg/water resource.svg").default} className="industry_serve_img" alt="Land Resources" style={{ margin: 10, width: 70 }} />
+                        <img src={require("../../src/assets/img/icons/svg/water resource.svg").default} className="industry_serve_img" alt="Land Resources" style={{ margin: 10, width: 60,height:60 }} />
                         <h3 className="industry_serve_h3_aboutus">Land Resources</h3>
                       </div>
                     </div>
                     <div className="col-lg-12 col-md-12">
                       <div className="single-industries-about_us right-item" style={{ display: 'flex' }}>
-                        <img src={require("../../src/assets/img/icons/svg/mining.svg").default} className="industry_serve_img" alt="Mining and Mineral" style={{ margin: 10, width: 70 }} />
+                        <img src={require("../../src/assets/img/icons/svg/mining.svg").default} className="industry_serve_img" alt="Mining and Mineral" style={{ margin: 10, width: 60,height:60}} />
                         <h3 className="industry_serve_h3_aboutus">Mining and Mineral</h3>
                       </div>
                     </div>
                     <div className="col-lg-12 col-md-12">
                       <div className="single-industries-about_us right-item" style={{ display: 'flex' }}>
-                        <img src={require("../../src/assets/img/icons/svg/oil_gas.svg").default} className="industry_serve_img" alt="Oil & Gas" style={{ margin: 10, width: 70 }} />
+                        <img src={require("../../src/assets/img/icons/svg/oil_gas.svg").default} className="industry_serve_img" alt="Oil & Gas" style={{ margin: 10, width: 60,height:60 }} />
                         <h3 className="industry_serve_h3_aboutus">Oil & Gas</h3>
                       </div>
                     </div>
                     <div className="col-lg-12 col-md-12">
                       <div className="single-industries-about_us right-item" style={{ display: 'flex' }}>
-                        <img src={require("../../src/assets/img/icons/svg/chemical.svg").default} className="industry_serve_img" alt="Chemical" style={{ margin: 10, width: 69 }} />
+                        <img src={require("../../src/assets/img/icons/svg/chemical.svg").default} className="industry_serve_img" alt="Chemical" style={{ margin: 10, width: 60,height:60 }} />
                         <h3 className="industry_serve_h3_aboutus">Chemical</h3>
                       </div>
                     </div>
@@ -254,13 +254,13 @@ const Home = () => {
         <section className="news-area pb-70" style={{ marginTop: '-46px' }}>
           <div className="container">
             <div className="section-title">
-              <h2 style={{ color: '#BD0324', fontWeight: 'bold' }}>News !</h2>
+              <h2 style={{ color: '#BD0324', fontWeight: 'bold'}}>News !</h2>
               <p style={{ color: '#000', fontSize: '20px', fontFamily: 'Calibri' }}>Check out for the latest news on GCRS</p>
             </div>
             <div className="row">
               <div className="col-lg-3 col-sm-6">
-                <div className="single-news">
-                  <div className="blog-img">
+                <div className="single-news" >
+                  <div className="blog-img" >
                     <a href="https://twitter.com/gailindia/status/1123883594844393473">
                       <img src={require("../../src/assets/img/GAIL.png")} alt="GAIL gives wings to city (Vizag) startup" />
                     </a>

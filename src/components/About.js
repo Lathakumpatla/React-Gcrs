@@ -16,7 +16,7 @@ export default function Header() {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-img">
-              <img src={require("../../src/assets/img/about_uss.svg").default}  alt="Image" />
+              <img src={require("../../src/assets/img/about_us.png")}  alt="Image" />
               </div>
             </div>
             <div className="col-lg-6">

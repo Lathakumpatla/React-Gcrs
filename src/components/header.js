@@ -91,6 +91,11 @@ export default function Header() {
                       </ul>
                     </li>
                     <li className="nav-item">
+                      <NavLink to="/ContactUs" className="nav-link">
+                        Products
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
                       <Link to="/Accreditation" className="nav-link">
                         Accreditation
                       </Link>

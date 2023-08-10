@@ -1,8 +1,8 @@
-/* header.css */
+
 
 .arduix-nav-style .navbar-area .main-nav {
   display: flex;
-  justify-content: flex-end; /* Add this line to justify content at the end */
+  justify-content: flex-end; 
   align-items: center;
   position: unset;
   background-color: transparent;
@@ -191,10 +191,8 @@
   z-index: 9999;
 }
 
-/* Main Banner Area Style */
-.env_mainimagebar {
-  /* Add any specific styles for the main banner area here */
-}
+
+
 
 .main-banner-area {
   background-image: url('../assets/img/Home_page_1.png');
@@ -214,9 +212,9 @@
   z-index: -1;
 }
 
-/* Add any other specific styles for the main banner area here */
 
-/* Add any other custom styles you need for the header and other components */
+
+
 .arduix-nav-style .navbar-area .logo-container {
   display: flex;
   align-items: start;
@@ -233,9 +231,9 @@
   margin-left: auto;
 }
 
-/* Adjust the height of the logo-container to align it properly with nav items */
+
 .arduix-nav-style .navbar-area .logo-container {
-  height: 60px; /* Same height as the navbar */
+  height: 60px; 
 }
 
 .arduix-nav-style .navbar-area .logo {
@@ -246,31 +244,31 @@
   max-height: 100%;
 }
 
-/* CSS for Small and Medium devices */
+
 @media (max-width: 991.98px) {
   .nav-bar-symbol {
-    display: block; /* Show the navigation bar symbol */
+    display: block;
   }
   .sidebar {
-    display: none; /* Hide the sidebar by default */
+    display: none; 
   }
   .sidebar.open {
-    display: block; /* Show the sidebar when it's open */
+    display: block; 
   }
 }
 
-/* CSS for Large devices */
+
 @media (min-width: 992px) {
   .nav-bar-symbol {
-    display: none; /* Hide the navigation bar symbol on large devices */
+    display: none; 
   }
   .sidebar {
-    display: none; /* Hide the sidebar on large devices */
+    display: none; 
   }
 }
 
 
-/* Add CSS for the hamburger icon and hide the mobile menu initially */
+
 .mobile-menu-icon {
   display: none;
 }
@@ -290,9 +288,9 @@
     display: none;
     flex-direction: column;
     align-items: center;
-    background-color: #333; /* Add your desired background color for the mobile menu */
+    background-color: #333; 
     position: absolute;
-    top: 60px; /* Adjust the top position to avoid overlapping with the header */
+    top: 60px; 
     width: 100%;
   }
 
@@ -312,13 +310,13 @@
   }
 
   .navbar-nav li a {
-    color: #fff; /* Add your desired text color for the mobile menu links */
+    color: #fff; 
     padding: 15px;
     display: block;
   }
 
   .navbar-nav li a:hover {
-    background-color: #555; /* Add your desired hover background color for the mobile menu links */
+    background-color: #555; 
   }
 
   .navbar-nav li.dropdown {
@@ -331,7 +329,7 @@
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #444; /* Add your desired background color for the dropdown menu */
+    background-color: #444; 
   }
 
   .navbar-nav li.dropdown:hover .dropdown-menu {
