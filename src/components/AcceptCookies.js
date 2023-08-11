@@ -9,7 +9,7 @@ const AcceptCookies = () => {
   }, []);
 
   return (
-    <div id="myModal" className="modal fade" role="dialog">
+    <div id="myModal" className="modal fade" role="dialog" >
       <div className="modal-dialog" >
         {/* Change the maxWidth value above to your desired width */}
         <div className="modal-content">

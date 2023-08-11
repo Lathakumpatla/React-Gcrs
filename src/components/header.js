@@ -1,19 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import '../static/css/header.css';
 
-
 export default function Header() {
- 
   const [isServicesDropdownVisible, setIsServicesDropdownVisible] = useState(false);
   const [isAboutDropdownVisible, setIsAboutDropdownVisible] = useState(false);
   const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [isVisible, setIsVisible] = useState(true);
 
   const handleMobileMenuToggle = () => {
     setIsMobileMenuVisible(!isMobileMenuVisible);
   };
-
-  
 
   const handleServicesDropdownToggle = () => {
     setIsServicesDropdownVisible(!isServicesDropdownVisible);
@@ -23,10 +21,28 @@ export default function Header() {
     setIsAboutDropdownVisible(!isAboutDropdownVisible);
   };
 
+  const handleScroll = () => {
+    const currentScrollPos = window.scrollY;
+    setIsVisible(prevScrollPos > currentScrollPos || currentScrollPos === 0);
+    setPrevScrollPos(currentScrollPos);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos]);
+
   return (
     <>
-      {/* header */}
-      <div id="header" className="arduix-nav-style">
+       <div
+        id="header"
+        className={`arduix-nav-style ${isVisible ? 'smooth-exit' : 'smooth-enter'}`}
+        style={{
+          pointerEvents: isVisible ? 'auto' : 'none'
+        }}
+      >
         <div className="navbar-area">
           <div className="logo-container">
             <Link to="/" className="logo">
@@ -94,7 +110,7 @@ export default function Header() {
                       </ul>
                     </li>
                     <li className="nav-item">
-                      <NavLink to="/ContactUs" className="nav-link">
+                      <NavLink to="/" className="nav-link">
                         Products
                       </NavLink>
                     </li>

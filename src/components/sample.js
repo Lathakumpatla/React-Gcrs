@@ -4,7 +4,7 @@ import '../static/css/header.css';
 
 
 export default function Header() {
-  
+ 
   const [isServicesDropdownVisible, setIsServicesDropdownVisible] = useState(false);
   const [isAboutDropdownVisible, setIsAboutDropdownVisible] = useState(false);
   const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
@@ -24,31 +24,34 @@ export default function Header() {
   };
 
   return (
-    <div id="header" className="arduix-nav-style">
-      <div className="navbar-area">
-        <div className="container">
-          <nav className="navbar navbar-expand-lg navbar-light">
+    <>
+      {/* header */}
+      <div id="header" className="arduix-nav-style">
+        <div className="navbar-area">
+          <div className="logo-container">
             <Link to="/" className="logo">
-              <img
+          
+            <img
                 src={require("../../src/assets/img/logo_website_2.svg").default}
                 alt="Logo"
-                width="80%"
-              />
+                width="80%"/>
             </Link>
-            <button
-              className="navbar-toggler"
-              type="button"
-              onClick={handleMobileMenuToggle}
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className={`collapse navbar-collapse ${isMobileMenuVisible ? 'show' : ''}`}>
-              <ul className="navbar-nav ml-auto">
-                <li className="nav-item">
-                  <NavLink exact to="/" className="nav-link" activeClassName="active">
-                    Home
-                  </NavLink>
-                </li>
+          </div>
+          {/* Mobile menu icon */}
+          <div className="mobile-menu-icon" onClick={handleMobileMenuToggle}>
+          
+          </div>
+          <div className={`main-nav ${isMobileMenuVisible ? 'mobile-menu-visible' : ''}`}>
+            <nav className="navbar navbar-expand-md navbar-light">
+              <div className="container">
+                <Link className="navbar-brand" to="/"></Link>
+                <div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                  <ul className="navbar-nav m-auto">
+                    <li className="nav-item">
+                      <NavLink exact to="/" className="nav-link" activeClassName="active">
+                        Home
+                      </NavLink>
+                    </li>
                     <li
                       className={`nav-item dropdown ${isServicesDropdownVisible ? 'show' : ''}`}
                       onMouseEnter={handleServicesDropdownToggle}
@@ -91,7 +94,7 @@ export default function Header() {
                       </ul>
                     </li>
                     <li className="nav-item">
-                      <NavLink to="/ContactUs" className="nav-link">
+                      <NavLink to="/" className="nav-link">
                         Products
                       </NavLink>
                     </li>
@@ -148,11 +151,11 @@ export default function Header() {
                     </li>
                   </ul>
                 </div>
-              
+              </div>
             </nav>
           </div>
         </div>
       </div>
-    
+    </>
   );
 }
