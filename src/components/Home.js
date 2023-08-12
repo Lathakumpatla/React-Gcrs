@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import '../static/css/Home.css';
+import  '../static/css/Home.css';
+
 
 
 
 const Home = () => {
+ 
   
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -93,7 +95,7 @@ const Home = () => {
             <div className="row">
               {/* First Row */}
               <div className="col-lg-4 col-sm-6">
-                <a href="environmental_solutions.html">
+                <a href="EnvironmentalSolutions"style={{textDecoration:'none'}}>
                   <div className="single-offer" style={{ height: '240px' }}>
                     <img
                       src={require("../../src/assets/img/solutions/environmental_solutions.svg").default}
@@ -108,7 +110,7 @@ const Home = () => {
               </div>
 
               <div className="col-lg-4 col-sm-6">
-                <a href="climate_change_and_carbon_offsetting.html">
+                <a href="ClimateChangeAndCarbonOffsetting" style={{textDecoration:'none'}}>
                   <div className="single-offer" style={{ height: 240 }}>
                     <img
                       src={require("../../src/assets/img/solutions/climate_change.svg").default}
@@ -123,7 +125,7 @@ const Home = () => {
               </div>
 
               <div className="col-lg-4 col-sm-6">
-                <a href="multi_infrastructure_risk_analysis.html">
+                <a href="MultiInfrastructureRiskAnalysis" style={{textDecoration:'none'}}>
                   <div className="single-offer" style={{ height: '240px' }}>
                     <img src={require("../../src/assets/img/solutions/multiinfrastructure.svg").default} style={{ width: '65px', marginRight: '19px', float: 'left' }} alt="Image" />
                     <h3 className="h3IndexPage">Multi Infrastructure Risk Analysis</h3>
@@ -138,7 +140,7 @@ const Home = () => {
             <div className="row">
               {/* Second Row */}
               <div className="col-lg-4 col-sm-6">
-                <a href="water_resources.html">
+                <a href="WaterResources" style={{textDecoration:'none'}}>
                   <div className="single-offer" style={{ height: '240px' }}>
                     <img src={require("../../src/assets/img/solutions/water_resource_1.svg").default} style={{ width: '65px', marginRight: '19px', float: 'left' }} alt="Image" />
                     <h3 className="h3IndexPage">Water Resources</h3>
@@ -150,7 +152,7 @@ const Home = () => {
               </div>
 
               <div className="col-lg-4 col-sm-6">
-                <a href="geospatial_technologies.html">
+                <a href="GeospatialTechnologies" style={{textDecoration:'none'}}>
                   <div className="single-offer" style={{ height: '240px' }}>
                     <img src={require("../../src/assets/img/solutions/geospatial_technologies.svg").default} style={{ width: '65px', marginRight: '19px', float: 'left' }} alt="Image" />
                     <h3 className="h3IndexPage">Geospatial Technologies</h3>
@@ -162,7 +164,7 @@ const Home = () => {
               </div>
 
               <div className="col-lg-4 col-sm-6">
-                <a href="Agriculture and Natural Resources.html">
+                <a href="AgricultureAndNaturalResources" style={{textDecoration:'none'}}>
                   <div className="single-offer" style={{ height: '240px' }}>
                     <img src={require("../../src/assets/img/solutions/agricultural_natural_resources.svg").default} style={{ width: '65px', marginRight: '19px', float: 'left' }} alt="Image" />
                     <h3 className="h3IndexPage">Agriculture and Natural Resources</h3>
@@ -262,12 +264,12 @@ const Home = () => {
               <div className="col-lg-3 col-sm-6">
                 <div className="single-news" >
                   <div className="blog-img" >
-                    <a href="https://twitter.com/gailindia/status/1123883594844393473">
+                    <a href="https://twitter.com/gailindia/status/1123883594844393473" >
                       <img src={require("../../src/assets/img/GAIL.png")} alt="GAIL gives wings to city (Vizag) startup" />
                     </a>
                   </div>
                   <div className="news-content-wrap" style={{ height: '200px' }}>
-                    <a href="https://twitter.com/gailindia/status/1123883594844393473">
+                    <a href="https://twitter.com/gailindia/status/1123883594844393473" style={{textDecoration:'none'}}>
                       <h3>GAIL gives wings to city (Vizag) startup</h3>
                     </a>
                   </div>
@@ -276,12 +278,12 @@ const Home = () => {
               <div className="col-lg-3 col-sm-6">
                 <div className="single-news">
                   <div className="blog-img">
-                    <a href="http://magazines.insightssuccess.in/The-10-Most-Recommended-GIS-Solution-Provider-Companies-September2019/#page=32">
+                    <a href="http://magazines.insightssuccess.in/The-10-Most-Recommended-GIS-Solution-Provider-Companies-September2019/#page=32" >
                       <img src={require("../../src/assets/img/insight Success.png")} alt="Conserving Environment by Providing Sustainable Solutions" />
                     </a>
                   </div>
                   <div className="news-content-wrap" style={{ height: '200px' }}>
-                    <a href="http://magazines.insightssuccess.in/The-10-Most-Recommended-GIS-Solution-Provider-Companies-September2019/#page=32">
+                    <a href="http://magazines.insightssuccess.in/The-10-Most-Recommended-GIS-Solution-Provider-Companies-September2019/#page=32" style={{textDecoration:'none'}}>
                       <h3>Conserving Environment by Providing Sustainable Solutions</h3>
                     </a>
                   </div>
@@ -290,12 +292,12 @@ const Home = () => {
               <div className="col-lg-3 col-sm-6">
                 <div className="single-news">
                   <div className="blog-img">
-                    <a href="http://viscan.in/vizags-rs-20-crore-startup/">
+                    <a href="http://viscan.in/vizags-rs-20-crore-startup/" >
                       <img src={require("../../src/assets/img/Vizag industrial Scan.png")} alt="Vizag’s Rs 20 crore Startup!" />
                     </a>
                   </div>
                   <div className="news-content-wrap" style={{ height: '200px' }}>
-                    <a href="http://viscan.in/vizags-rs-20-crore-startup/">
+                    <a href="http://viscan.in/vizags-rs-20-crore-startup/" style={{textDecoration:'none'}}>
                       <h3>Vizag’s Rs 20 crore Startup!</h3>
                     </a>
                   </div>
@@ -309,7 +311,7 @@ const Home = () => {
                     </a>
                   </div>
                   <div className="news-content-wrap" style={{ height: '200px' }}>
-                    <a href="https://www.timesnownews.com/videos/et-now/shows/leaders-of-tomorrow-season-8-geo-climate-furlenco/47915">
+                    <a href="https://www.timesnownews.com/videos/et-now/shows/leaders-of-tomorrow-season-8-geo-climate-furlenco/47915"style={{textDecoration:'none'}}>
                       <h3>Leaders of tomorrow brings you two small giant conversations</h3>
                     </a>
                   </div>
@@ -358,6 +360,8 @@ const Home = () => {
             </div>
           </div>
         </div>
+   
+        
 
 
 

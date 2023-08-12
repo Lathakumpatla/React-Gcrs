@@ -168,10 +168,7 @@ const Footer = () => {
                       </div>
                   </div>
               </div>
-          </footer></><div className="go-top">
-              <FiChevronUp/>
-              <i className="bx bx-chevrons-up bx-fade-up"></i>
-          </div></>
+          </footer></></>
 );
 };
   

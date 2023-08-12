@@ -44,6 +44,7 @@ import AccreditationComponent from './components/Accreditation';
 import OurClientsComponent from './components/Clients';
 import InvestorsAndPartners from './components/Investors';
 import ContactPage from './components/ContactUs';
+import ScrollTopButton from './components/ScrollTop';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -54,6 +55,13 @@ function App() {
       setIsLoading(false);
     }, 1000); // Change the delay time as needed
   }, []);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
 
   return (
     <Router>
@@ -89,6 +97,7 @@ function App() {
             <Route path="/ContactUs" component={ContactPage} />
           </Switch>
           <Footer />
+          <ScrollTopButton onClick={scrollToTop} />
         </>
       )}
     </Router>
